@@ -150,8 +150,8 @@ def generate_pdf():
         ("Al-Libas BD E-Commerce Platform", "https://al-libasbd.com/", "React.js, Node.js, Express, MongoDB, Tailwind CSS", "Full-featured apparel e-commerce store with real-time product catalog, shopping cart, and order processing."),
         ("PC Master BD — Online Gadget Shop", "https://www.pcmasterbd.com/", "Next.js, TypeScript, Node.js, PostgreSQL, Tailwind CSS", "High-performance tech and PC component store with dynamic search, cart management, and online checkout flow."),
         ("ScholarPASS EdTech & Scholarship Platform", "https://scholarpass.org", "Next.js, Node.js, PostgreSQL, Tailwind CSS", "All-in-one educational superapp connecting scholarship discovery with interactive tutoring and test prep."),
-        ("Pharmacy Management & POS System", "GitHub: shofiahmed69", "React.js, Express.js, MongoDB, Chart.js", "Enterprise pharmacy management tool handling inventory tracking, digital prescription processing, and sales analytics."),
-        ("Restaurant POS & Order System", "GitHub: shofiahmed69", "React.js, Node.js, WebSockets, MySQL", "Real-time restaurant management platform featuring live table tracking, order processing, and receipt generation.")
+        ("Pharmacy Management & POS System", "https://frontend-xi-three-35.vercel.app/login", "React.js, Express.js, MongoDB, Chart.js", "Enterprise pharmacy management tool handling inventory tracking, digital prescription processing, and sales analytics."),
+        ("Restaurant POS & Order System", "https://pos-management-web.vercel.app/", "React.js, Node.js, WebSockets, MySQL", "Real-time restaurant management platform featuring live table tracking, order processing, and receipt generation.")
     ]
 
     for title, link, stack, desc in projects:
