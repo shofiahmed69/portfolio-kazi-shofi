@@ -37,12 +37,15 @@ export const SITE_CONFIG = {
   ],
   organizations: [
     {
-      name: "Jantra Soft",
+      name: "Jantra Software",
+      url: "https://jantrasoft.online",
       role: "Chief Technology Officer (CTO)",
+      description: "Bangladesh-based custom software development company building SaaS platforms, AI agents, mobile apps, and workflow automation.",
       type: "Organization",
     },
     {
       name: "ScholarPass",
+      url: "https://scholarpass.org",
       role: "Full-Stack Software Engineer",
       location: "USA (Remote/Hybrid)",
       type: "Organization",
@@ -65,12 +68,14 @@ export function getPersonSchema() {
     worksFor: [
       {
         "@type": "Organization",
-        name: "Jantra Soft",
+        name: "Jantra Software",
+        sameAs: "https://jantrasoft.online",
         roleName: "Chief Technology Officer",
       },
       {
         "@type": "Organization",
         name: "ScholarPass",
+        sameAs: "https://scholarpass.org",
         roleName: "Full-Stack Developer",
       },
     ],

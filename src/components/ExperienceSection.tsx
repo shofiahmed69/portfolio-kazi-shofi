@@ -6,6 +6,19 @@ import { Briefcase, MapPin, ExternalLink, Check } from "lucide-react";
 export default function ExperienceSection() {
   const experiences = [
     {
+      company: "Jantra Software",
+      companyUrl: "https://jantrasoft.online",
+      role: "Chief Technology Officer (CTO)",
+      location: "Chittagong / Dhaka, Bangladesh",
+      period: "2024 - Present",
+      bullets: [
+        "Serving as CTO & Technical Leader for Jantra Software, a custom software development company founded in 2024 specializing in SaaS platforms, AI agents, mobile applications, and workflow automation.",
+        "Directing end-to-end software design, cloud system architecture, API microservices, and database security protocols.",
+        "Spearheading client engineering initiatives for enterprises and startups across Bangladesh and international markets.",
+      ],
+      tags: ["SaaS", "AI Agents", "NestJS", "Next.js", "Flutter", "PostgreSQL", "Node.js", "System Architecture"],
+    },
+    {
       company: "ScholarPASS",
       companyUrl: "https://scholarpass.org",
       role: "Full-Stack Developer",
