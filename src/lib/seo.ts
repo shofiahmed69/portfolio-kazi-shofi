@@ -3,8 +3,8 @@ export const SITE_CONFIG = {
   title: "Kazi Shofi Ahmed | CTO at Jantra Soft & Software Engineer",
   description:
     "Official portfolio and profile of Kazi Shofi Ahmed - CTO of Jantra Soft, Full-Stack Developer at ScholarPass (US-based EdTech), Software Engineering student at Noakhali Science & Technology University. Specialized in NestJS, Node.js, Next.js, React, PostgreSQL, MongoDB, Firebase, Flutter, and Python.",
-  url: "https://kazishofiahmed.com", // Base URL (or canonical URL)
-  ogImage: "https://kazishofiahmed.com/shofi_formal.png",
+  url: "https://kazishofiahmedportfolio.vercel.app", // Base URL (or canonical URL)
+  ogImage: "https://kazishofiahmedportfolio.vercel.app/shofi_formal.png",
   author: {
     name: "Kazi Shofi Ahmed",
     role: "CTO at Jantra Soft & Full Stack Software Engineer",
