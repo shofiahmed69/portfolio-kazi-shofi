@@ -23,6 +23,14 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-neutral-400">
+          <a href="/about" className="hover:text-white transition-colors">About</a>
+          <a href="/projects" className="hover:text-white transition-colors">Projects</a>
+          <a href="/experience" className="hover:text-white transition-colors">Experience</a>
+          <a href="/publications" className="hover:text-white transition-colors">Publications</a>
+          <a href="/contact" className="hover:text-white transition-colors">Contact</a>
+        </div>
+
         <div className="flex items-center gap-4">
           <a
             href="https://github.com/shofiahmed69"

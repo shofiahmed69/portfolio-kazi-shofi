@@ -17,13 +17,13 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
-    { name: "GitHub Repos", href: "#github" },
-    { name: "Awards", href: "#awards" },
-    { name: "Contact", href: "#contact" },
+    { name: "About", href: "/about" },
+    { name: "Skills", href: "/experience" },
+    { name: "Experience", href: "/experience" },
+    { name: "Projects", href: "/projects" },
+    { name: "GitHub Repos", href: "/projects#github" },
+    { name: "Awards", href: "/publications" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
