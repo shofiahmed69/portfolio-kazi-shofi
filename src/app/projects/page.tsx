@@ -35,8 +35,20 @@ export default function ProjectsPage() {
         },
         {
           "@type": "SoftwareSourceCode",
-          name: "ScholarPass Platform Features",
+          name: "SuperApp — EdTech & Scholarship Platform",
           programmingLanguage: "React, Node.js, PostgreSQL",
+          author: { "@id": `${SITE_CONFIG.url}/#person` },
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          name: "Restaurant POS System",
+          programmingLanguage: "React.js, Node.js, WebSockets, MySQL",
+          author: { "@id": `${SITE_CONFIG.url}/#person` },
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          name: "Pharmacy Management System",
+          programmingLanguage: "React.js, Express.js, MongoDB",
           author: { "@id": `${SITE_CONFIG.url}/#person` },
         },
       ],

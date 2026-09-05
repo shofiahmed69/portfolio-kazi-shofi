@@ -9,9 +9,9 @@ import { SITE_CONFIG } from "@/lib/seo";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Kazi Shofi Ahmed | CTO at Jantra Soft & Software Engineer",
+  title: "About Kazi Shofi Ahmed | CTO at Jantra Software & Software Engineer",
   description:
-    "Learn about Kazi Shofi Ahmed - CTO of Jantra Soft, Full Stack Software Engineer at ScholarPass, and BSc student at Noakhali Science & Technology University.",
+    "Learn about Kazi Shofi Ahmed — CTO of Jantra Software, Full-Stack Software Engineer at ScholarPass, and BSc student at Noakhali Science & Technology University (NSTU).",
   alternates: {
     canonical: `${SITE_CONFIG.url}/about`,
   },
@@ -40,7 +40,7 @@ export default function AboutPage() {
           About Kazi Shofi Ahmed
         </h1>
         <p className="text-neutral-400 text-center max-w-2xl mx-auto text-sm sm:text-base mb-8">
-          Chief Technology Officer (CTO) at Jantra Soft, Full-Stack Developer at ScholarPass, and Software Engineering student specializing in scalable systems, NestJS, Next.js, and cloud databases.
+          Chief Technology Officer (CTO) at Jantra Software, Full-Stack Developer at ScholarPass, and Software Engineering student specializing in scalable systems, NestJS, Next.js, and cloud databases.
         </p>
       </div>
 

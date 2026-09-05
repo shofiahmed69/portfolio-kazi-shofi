@@ -31,24 +31,23 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.4 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-[#050505]/95 border-b border-neutral-800 py-3 shadow-2xl"
           : "bg-transparent py-6"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo */}
-        <a href="#" className="flex items-center gap-3 group">
+        <a href="/" className="flex items-center gap-3 group">
           <div className="w-9 h-9 rounded bg-white text-black flex items-center justify-center font-mono font-bold text-sm">
-            SA
+            KSA
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-base text-white tracking-tight">
-              Shofi Ahmed
+              Kazi Shofi Ahmed
             </span>
             <span className="text-[10px] text-neutral-400 font-mono tracking-widest uppercase">
-              Full-Stack Software Engineer
+              CTO @ Jantra Software · Full-Stack Engineer
             </span>
           </div>
         </a>

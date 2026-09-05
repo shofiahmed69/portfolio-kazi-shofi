@@ -25,6 +25,7 @@ export default function PublicationsPage() {
     name: "Publications and Awards of Kazi Shofi Ahmed",
     mainEntity: {
       "@type": "Person",
+      "@id": `${SITE_CONFIG.url}/#person`,
       name: SITE_CONFIG.name,
       award: [
         "National & International Hackathon Champion",

@@ -7,21 +7,21 @@ export default function AboutSection() {
   const highlights = [
     {
       icon: Briefcase,
+      title: "Jantra Software",
+      subtitle: "Chief Technology Officer (CTO)",
+      desc: "Directing software engineering for SaaS platforms, AI agent pipelines, mobile applications, and workflow automation.",
+    },
+    {
+      icon: Briefcase,
       title: "ScholarPASS (US EdTech)",
       subtitle: "Full-Stack Developer (Hybrid)",
-      desc: "Building adaptive learning features, test prep tools, API services, and database optimizations.",
+      desc: "Building adaptive learning modules, tutoring tools, API services, and relational/document database optimizations.",
     },
     {
       icon: GraduationCap,
       title: "BSc in Software Engineering",
       subtitle: "Noakhali Science & Tech Univ.",
-      desc: "Degree candidate (2023 - 2027) focusing on Data Structures, Algorithms, Software Architecture & Web Systems.",
-    },
-    {
-      icon: Code,
-      title: "Full-Stack Web & Mobile",
-      subtitle: "Frontend, Backend & Apps",
-      desc: "Proficient in Next.js, React, Node.js, NestJS, Express, databases, and cross-platform Flutter development.",
+      desc: "Degree candidate (2023 - 2027) studying Data Structures, Algorithms, Software Architecture, and Database Systems.",
     },
   ];
 
@@ -32,10 +32,10 @@ export default function AboutSection() {
           [ 01 // ABOUT ME ]
         </span>
         <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
-          Architecting High-Performance Full-Stack Systems
+          About Kazi Shofi Ahmed
         </h2>
         <p className="text-neutral-400 text-sm sm:text-base font-light">
-          Based in Dhaka, Bangladesh, I build scalable web applications, robust APIs, and cross-platform mobile products.
+          Software Engineering student at NSTU, CTO at Jantra Software, and Full-Stack Developer at ScholarPass based in Dhaka, Bangladesh.
         </p>
       </div>
 
@@ -61,8 +61,8 @@ export default function AboutSection() {
               </div>
 
               <div className="mt-6 pt-4 border-t border-neutral-800 flex items-center justify-between text-xs text-neutral-500 font-mono">
-                <span>VERIFIED</span>
-                <span>ENGINEER</span>
+                <span>ROLE</span>
+                <span>VERIFIED RECORD</span>
               </div>
             </motion.div>
           );
@@ -79,7 +79,7 @@ export default function AboutSection() {
         <div className="flex items-center justify-between border-b border-neutral-800 pb-3 mb-4">
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-white inline-block" />
-            <span className="text-neutral-400 ml-2 text-xs">shofi_ahmed_profile.json</span>
+            <span className="text-neutral-400 ml-2 text-xs">kazi_shofi_ahmed_entity.json</span>
           </div>
           <div className="flex items-center gap-1.5 text-neutral-400">
             <MapPin className="w-3.5 h-3.5 text-white" />
@@ -89,15 +89,15 @@ export default function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-neutral-300">
           <div>
-            <p className="text-white font-bold mb-1">// Professional Bio</p>
+            <p className="text-white font-bold mb-1">// Factual Professional Background</p>
             <p className="text-neutral-400 leading-relaxed font-sans text-xs sm:text-sm">
-              I am a results-driven Full-Stack Software Engineer with an intensive hackathon pedigree. Working with US-based EdTech company ScholarPASS in a hybrid setup, I engineer production features across Next.js, Node/NestJS, and mobile Flutter ecosystems.
+              Kazi Shofi Ahmed is an active Software Engineering student at Noakhali Science and Technology University (NSTU). He serves as Chief Technology Officer (CTO) at Jantra Software (jantrasoft.online) and works as a Full-Stack Developer at US-based EdTech company ScholarPass (scholarpass.org).
             </p>
           </div>
           <div>
-            <p className="text-white font-bold mb-1">// Core Philosophy</p>
+            <p className="text-white font-bold mb-1">// Engineering Focus</p>
             <p className="text-neutral-400 leading-relaxed font-sans text-xs sm:text-sm">
-              &quot;Building scalable, human-centered software that solves complex real-world problems through clean code, solid architecture, and high performance.&quot;
+              Hands-on engineering across NestJS, Node.js, Next.js, React.js, PostgreSQL, MongoDB, Firebase, Flutter, and Python with a strong background in competitive programming and collegiate hackathons.
             </p>
           </div>
         </div>

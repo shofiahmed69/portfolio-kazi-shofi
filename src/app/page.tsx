@@ -11,10 +11,14 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
 
+import { SITE_CONFIG } from "@/lib/seo";
+
 export const metadata = {
-  title: "Kazi Shofi Ahmed | Full-Stack Software Engineer",
-  description:
-    "Portfolio of Kazi Shofi Ahmed - Full-Stack Software Engineer at ScholarPASS and multi-time National & International Hackathon Champion specializing in Next.js, NestJS, React, Node.js, and Flutter.",
+  title: `${SITE_CONFIG.name} | CTO at Jantra Software & Full-Stack Software Engineer`,
+  description: SITE_CONFIG.description,
+  alternates: {
+    canonical: SITE_CONFIG.url,
+  },
 };
 
 export default function Home() {

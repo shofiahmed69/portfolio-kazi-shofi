@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Professional Experience & Skills | Kazi Shofi Ahmed",
   description:
-    "Detailed engineering roles and technical competencies of Kazi Shofi Ahmed: CTO of Jantra Soft, Full-Stack Developer at ScholarPass (US), proficient in NestJS, Next.js, Flutter, and PostgreSQL.",
+    "Detailed engineering roles and technical competencies of Kazi Shofi Ahmed: CTO of Jantra Software, Full-Stack Developer at ScholarPass (US), proficient in NestJS, Next.js, Flutter, and PostgreSQL.",
   alternates: {
     canonical: `${SITE_CONFIG.url}/experience`,
   },
@@ -26,11 +26,25 @@ export default function ExperiencePage() {
     name: "Professional Experience of Kazi Shofi Ahmed",
     mainEntity: {
       "@type": "Person",
+      "@id": `${SITE_CONFIG.url}/#person`,
       name: SITE_CONFIG.name,
-      jobTitle: "CTO & Full-Stack Software Engineer",
+      jobTitle: [
+        "Chief Technology Officer",
+        "Full-Stack Software Engineer",
+      ],
       worksFor: [
-        { "@type": "Organization", name: "Jantra Soft" },
-        { "@type": "Organization", name: "ScholarPass" },
+        {
+          "@type": "Organization",
+          name: "Jantra Software",
+          url: "https://jantrasoft.online",
+          sameAs: "https://jantrasoft.online",
+        },
+        {
+          "@type": "Organization",
+          name: "ScholarPass",
+          url: "https://scholarpass.org",
+          sameAs: "https://scholarpass.org",
+        },
       ],
     },
   };
