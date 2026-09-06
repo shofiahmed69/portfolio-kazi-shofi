@@ -91,7 +91,7 @@ export default function AboutSection() {
           <div>
             <p className="text-white font-bold mb-1">// Factual Professional Background</p>
             <p className="text-neutral-400 leading-relaxed font-sans text-xs sm:text-sm">
-              Kazi Shofi Ahmed is an active Software Engineering student at Noakhali Science and Technology University (NSTU). He serves as Chief Technology Officer (CTO) at Jantra Software (jantrasoft.online) and works as a Full-Stack Developer at US-based EdTech company ScholarPass (scholarpass.org).
+              Kazi Shofi Ahmed is an active Software Engineering student at Noakhali Science and Technology University (NSTU). He serves as Chief Technology Officer (CTO) at Jantra Software (jantrasoft.online) and works as a Full-Stack Developer at US-based EdTech company ScholarPass (scholarpass.org). Verified professional profiles include his <a href="https://www.linkedin.com/in/shofi-ahmed-sh351/" target="_blank" rel="noreferrer" className="text-white underline underline-offset-2 hover:text-neutral-300">LinkedIn (shofi-ahmed-sh351)</a> and <a href="https://github.com/shofiahmed69" target="_blank" rel="noreferrer" className="text-white underline underline-offset-2 hover:text-neutral-300">GitHub (shofiahmed69)</a>.
             </p>
           </div>
           <div>

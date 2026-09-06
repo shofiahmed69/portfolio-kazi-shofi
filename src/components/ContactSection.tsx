@@ -90,7 +90,7 @@ export default function ContactSection() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/shofi-ahmed-sh351"
+              href="https://www.linkedin.com/in/shofi-ahmed-sh351/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"

@@ -87,7 +87,7 @@ export default function HeroSection() {
                 <GithubIcon className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/shofi-ahmed-sh351"
+                href="https://www.linkedin.com/in/shofi-ahmed-sh351/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2.5 sm:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
