@@ -28,11 +28,11 @@ export default function HeroSection() {
             <h2 className="text-neutral-400 text-xs sm:text-sm font-mono uppercase tracking-widest">
               Full-Stack Software Engineer
             </h2>
-            <h1 className="text-3xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight lg:leading-none">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight lg:leading-none break-words">
               Kazi Shofi Ahmed
             </h1>
-            <p className="text-base sm:text-2xl font-light text-neutral-300 pt-1 flex items-center gap-2">
-              <Code className="w-5 h-5 text-neutral-400 shrink-0 inline" />
+            <p className="text-sm sm:text-xl lg:text-2xl font-light text-neutral-300 pt-1 flex items-center gap-2 flex-wrap">
+              <Code className="w-4 h-4 sm:w-5 sm:h-5 text-neutral-400 shrink-0 inline" />
               <span>Frontend, Backend & Mobile Application Engineering</span>
             </p>
           </div>
@@ -45,24 +45,24 @@ export default function HeroSection() {
           {/* Quick Stats Pill */}
           <div className="grid grid-cols-3 gap-2 sm:gap-4 py-2 max-w-lg border-y border-neutral-800 my-1 sm:my-2">
             <div className="py-1 sm:py-2">
-              <span className="block text-xl sm:text-2xl font-extrabold text-white font-mono">8+</span>
-              <span className="text-[10px] sm:text-xs text-neutral-400 font-mono uppercase">Awards & Podiums</span>
+              <span className="block text-lg sm:text-2xl font-extrabold text-white font-mono">8+</span>
+              <span className="text-[9px] sm:text-xs text-neutral-400 font-mono uppercase">Awards & Podiums</span>
             </div>
-            <div className="py-1 sm:py-2 border-l border-neutral-800 pl-3 sm:pl-4">
-              <span className="block text-xl sm:text-2xl font-extrabold text-white font-mono">40+</span>
-              <span className="text-[10px] sm:text-xs text-neutral-400 font-mono uppercase">Full-Stack Repos</span>
+            <div className="py-1 sm:py-2 border-l border-neutral-800 pl-2.5 sm:pl-4">
+              <span className="block text-lg sm:text-2xl font-extrabold text-white font-mono">40+</span>
+              <span className="text-[9px] sm:text-xs text-neutral-400 font-mono uppercase">Full-Stack Repos</span>
             </div>
-            <div className="py-1 sm:py-2 border-l border-neutral-800 pl-3 sm:pl-4">
-              <span className="block text-xl sm:text-2xl font-extrabold text-white font-mono">BSc</span>
-              <span className="text-[10px] sm:text-xs text-neutral-400 font-mono uppercase">Software Eng.</span>
+            <div className="py-1 sm:py-2 border-l border-neutral-800 pl-2.5 sm:pl-4">
+              <span className="block text-lg sm:text-2xl font-extrabold text-white font-mono">BSc</span>
+              <span className="text-[9px] sm:text-xs text-neutral-400 font-mono uppercase">Software Eng.</span>
             </div>
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-wrap items-center gap-3 sm:gap-4 pt-1 sm:pt-2">
+          <div className="flex flex-wrap items-center gap-2.5 sm:gap-4 pt-1 sm:pt-2">
             <a
               href="#projects"
-              className="flex items-center gap-2 px-5 sm:px-6 py-3 text-xs font-mono uppercase font-bold text-black bg-white hover:bg-neutral-200 rounded transition-all active:scale-95"
+              className="flex items-center justify-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs font-mono uppercase font-bold text-black bg-white hover:bg-neutral-200 rounded transition-all active:scale-95 w-full xs:w-auto"
             >
               <span>Explore Projects</span>
               <ArrowRight className="w-4 h-4" />
@@ -70,18 +70,18 @@ export default function HeroSection() {
 
             <a
               href="#github"
-              className="flex items-center gap-2 px-5 sm:px-6 py-3 text-xs font-mono uppercase font-semibold text-white bg-[#0F0F0F] hover:bg-neutral-800 border border-neutral-800 rounded transition-all"
+              className="flex items-center justify-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs font-mono uppercase font-semibold text-white bg-[#0F0F0F] hover:bg-neutral-800 border border-neutral-800 rounded transition-all w-full xs:w-auto"
             >
               <GithubIcon className="w-4 h-4 text-white" />
               <span>GitHub Repos</span>
             </a>
 
-            <div className="flex items-center gap-2 sm:gap-3 pl-1 sm:pl-2">
+            <div className="flex items-center gap-2 sm:gap-3 pt-1 xs:pt-0">
               <a
                 href="https://github.com/shofiahmed69"
                 target="_blank"
                 rel="noreferrer"
-                className="p-2.5 sm:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
+                className="p-2 sm:p-2.5 md:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
                 title="GitHub Profile"
               >
                 <GithubIcon className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -90,14 +90,14 @@ export default function HeroSection() {
                 href="https://www.linkedin.com/in/shofi-ahmed-sh351/"
                 target="_blank"
                 rel="noreferrer"
-                className="p-2.5 sm:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
+                className="p-2 sm:p-2.5 md:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
                 title="LinkedIn Profile"
               >
                 <LinkedinIcon className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="mailto:frex19shofi@gmail.com"
-                className="p-2.5 sm:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
+                className="p-2 sm:p-2.5 md:p-3 text-neutral-400 hover:text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
                 title="Email Contact"
               >
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -106,14 +106,14 @@ export default function HeroSection() {
           </div>
         </motion.div>
 
-        {/* Right Image Column - Positioned first on mobile so whole formal photo appears in first viewport view */}
+        {/* Right Image Column */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           className="w-full lg:col-span-5 flex justify-center items-center relative"
         >
-          <div className="relative w-full max-w-[280px] sm:max-w-sm lg:max-w-md aspect-[4/5] rounded-xl p-1 bg-[#0F0F0F] border border-neutral-800 shadow-2xl group overflow-hidden">
+          <div className="relative w-full max-w-[240px] xs:max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md aspect-[4/5] rounded-xl p-1 bg-[#0F0F0F] border border-neutral-800 shadow-2xl group overflow-hidden">
             {/* Natural Original Color Image */}
             <div className="relative w-full h-full rounded-lg overflow-hidden bg-black">
               <Image
@@ -121,6 +121,7 @@ export default function HeroSection() {
                 alt="Kazi Shofi Ahmed Formal Photo"
                 fill
                 priority
+                sizes="(max-width: 640px) 260px, (max-width: 1024px) 340px, 420px"
                 className="object-cover object-top transition-all duration-300"
               />
             </div>

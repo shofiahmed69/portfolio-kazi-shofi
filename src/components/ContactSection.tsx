@@ -49,14 +49,14 @@ export default function ContactSection() {
           </div>
 
           {/* Email Copy Card */}
-          <div className="w-full p-4 rounded bg-neutral-950 border border-neutral-800 flex items-center justify-between font-mono max-w-md">
-            <div className="flex items-center gap-3">
-              <Mail className="w-4 h-4 text-white" />
-              <span className="text-xs font-semibold text-white">{email}</span>
+          <div className="w-full p-3 sm:p-4 rounded bg-neutral-950 border border-neutral-800 flex flex-col xs:flex-row items-center justify-between gap-3 font-mono max-w-md">
+            <div className="flex items-center gap-2 sm:gap-3 overflow-hidden max-w-full">
+              <Mail className="w-4 h-4 text-white shrink-0" />
+              <span className="text-[11px] sm:text-xs font-semibold text-white truncate">{email}</span>
             </div>
             <button
               onClick={handleCopyEmail}
-              className="px-3 py-1.5 rounded bg-[#0F0F0F] hover:bg-neutral-800 text-white text-xs font-bold transition-colors flex items-center gap-1.5 border border-neutral-800"
+              className="px-3 py-1.5 rounded bg-[#0F0F0F] hover:bg-neutral-800 text-white text-xs font-bold transition-colors flex items-center justify-center gap-1.5 border border-neutral-800 w-full xs:w-auto shrink-0"
             >
               {copied ? (
                 <>
@@ -79,12 +79,12 @@ export default function ContactSection() {
           </div>
 
           {/* Direct Social Links */}
-          <div className="pt-6 border-t border-neutral-800 w-full flex items-center justify-center gap-4 font-mono">
+          <div className="pt-6 border-t border-neutral-800 w-full flex flex-wrap items-center justify-center gap-3 sm:gap-4 font-mono">
             <a
               href="https://github.com/shofiahmed69"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-black bg-white hover:bg-neutral-200 rounded transition-all"
+              className="flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 text-xs font-bold text-black bg-white hover:bg-neutral-200 rounded transition-all w-full xs:w-auto"
             >
               <GithubIcon className="w-4 h-4" />
               <span>GitHub</span>
@@ -93,7 +93,7 @@ export default function ContactSection() {
               href="https://www.linkedin.com/in/shofi-ahmed-sh351/"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 text-xs font-bold text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all"
+              className="flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 text-xs font-bold text-white bg-[#0F0F0F] hover:bg-neutral-800 rounded border border-neutral-800 transition-all w-full xs:w-auto"
             >
               <LinkedinIcon className="w-4 h-4 text-white" />
               <span>LinkedIn</span>

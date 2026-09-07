@@ -72,7 +72,7 @@ export default function ProjectsSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         {projects.map((project, idx) => {
           const Icon = project.icon;
           return (
@@ -82,7 +82,7 @@ export default function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.1 }}
-              className="mono-card rounded-xl p-6 flex flex-col justify-between relative overflow-hidden"
+              className="mono-card rounded-xl p-5 sm:p-6 flex flex-col justify-between relative overflow-hidden"
             >
               {project.featured && (
                 <div className="absolute top-3 right-3 px-2.5 py-0.5 rounded bg-white text-black text-[10px] font-mono font-bold uppercase">

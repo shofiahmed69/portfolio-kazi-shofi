@@ -10,6 +10,8 @@
     background-color: #050505 !important;
     color: #F3F4F6;
     overflow-x: hidden;
+    max-width: 100vw;
+    -webkit-tap-highlight-color: transparent;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
   }
 

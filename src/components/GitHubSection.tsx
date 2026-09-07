@@ -164,8 +164,8 @@ export default function GitHubSection() {
       </div>
 
       {/* Filter and Search Bar */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
-        <div className="relative w-full sm:w-80">
+      <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-8">
+        <div className="relative w-full md:w-80">
           <Search className="w-4 h-4 text-neutral-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
           <input
             type="text"
@@ -176,13 +176,13 @@ export default function GitHubSection() {
           />
         </div>
 
-        <div className="flex items-center gap-2 w-full sm:w-auto overflow-x-auto font-mono">
+        <div className="flex items-center gap-2 w-full md:w-auto overflow-x-auto font-mono pb-2 md:pb-0 scrollbar-thin">
           <span className="text-xs text-neutral-500 shrink-0">Filter:</span>
           {languages.slice(0, 6).map((lang) => (
             <button
               key={lang}
               onClick={() => setSelectedLanguage(lang)}
-              className={`px-3 py-1 text-xs rounded border transition-all shrink-0 ${
+              className={`px-3 py-1.5 text-xs rounded border transition-all shrink-0 ${
                 selectedLanguage === lang
                   ? "bg-white text-black font-bold border-white"
                   : "bg-neutral-950 text-neutral-400 border-neutral-800 hover:text-white"
@@ -195,7 +195,7 @@ export default function GitHubSection() {
       </div>
 
       {/* Repos Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
         {filteredRepos.map((repo, idx) => (
           <motion.div
             key={repo.id}

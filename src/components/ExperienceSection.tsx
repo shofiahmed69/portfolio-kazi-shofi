@@ -56,13 +56,13 @@ export default function ExperienceSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="mono-card p-8 rounded-xl relative overflow-hidden"
+            className="mono-card p-5 sm:p-8 rounded-xl relative overflow-hidden"
           >
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-neutral-800 mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4 pb-5 sm:pb-6 border-b border-neutral-800 mb-6">
               <div>
-                <div className="flex items-center gap-3">
-                  <h3 className="text-xl font-bold text-white font-mono">{exp.role}</h3>
-                  <span className="px-2.5 py-0.5 rounded bg-white text-black text-xs font-mono font-bold uppercase">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+                  <h3 className="text-lg sm:text-xl font-bold text-white font-mono">{exp.role}</h3>
+                  <span className="px-2 sm:px-2.5 py-0.5 rounded bg-white text-black text-[11px] sm:text-xs font-mono font-bold uppercase">
                     {exp.period}
                   </span>
                 </div>
