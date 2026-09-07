@@ -27,14 +27,12 @@ export default function Navbar() {
   ];
 
   return (
-    <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.4 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-          ? "bg-[#050505]/95 border-b border-neutral-800 py-3 shadow-2xl"
-          : "bg-transparent py-6"
-        }`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-[#050505]/95 border-b border-neutral-800 py-2 sm:py-2.5 shadow-2xl backdrop-blur-md"
+          : "bg-transparent py-2.5 sm:py-3.5 lg:py-4"
+      }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo */}
@@ -115,6 +113,6 @@ export default function Navbar() {
           </a>
         </motion.div>
       )}
-    </motion.header>
+    </header>
   );
 }
